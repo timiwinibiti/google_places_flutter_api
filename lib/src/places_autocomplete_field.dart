@@ -239,7 +239,7 @@ class LocationAutocompleteFieldState extends State<PlacesAutocompleteField> {
                   ),
           )
         else
-          const SizedBox()
+          const SizedBox(),
       ],
     );
 

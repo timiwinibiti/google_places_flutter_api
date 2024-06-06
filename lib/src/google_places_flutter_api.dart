@@ -1,4 +1,3 @@
-
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -141,7 +140,7 @@ class _PlacesAutocompleteOverlayState extends PlacesAutocompleteState {
               ],
             ),
           ),
-          const Divider()
+          const Divider(),
         ],
       );
 
@@ -374,7 +373,7 @@ class PoweredByGoogleImage extends StatelessWidget {
                 : _poweredByGoogleBlack,
             scale: 2.5,
           ),
-        )
+        ),
       ],
     );
   }
